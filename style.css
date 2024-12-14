@@ -1,0 +1,94 @@
+body {
+
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.item {
+    background-color: rgb(116, 128, 147);
+    width: 300px;
+    height: 50px;
+    margin: 25px;
+}
+
+#cabeza {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#logo {
+    
+    height: 50px;
+    width: 50px;
+}
+
+#navegador {
+
+    width: 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aliceblue;
+
+}
+
+
+
+#contenido2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.item2 {
+    background-color: rgb(16, 46, 77);
+    width: 100%;
+    height: 100px;
+    margin: px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buscador {
+    width: 150px;
+    height: 50px;
+    
+
+}
+
+#barco {
+    width: 960px;
+    height: 1000px;
+  
+}
+
+#isla {
+    width: 960px;
+    height: 1000px;
+    
+}
+
+#tormenta {
+    width: 960px;
+    height: 1000px;
+    
+}
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+}
